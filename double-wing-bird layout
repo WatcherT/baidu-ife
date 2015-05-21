@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.main{
+			background-color: red;
+			float: left;
+			width: 100%;
+			height: 100%;
+		}
+		.sub{
+			background-color: green;
+			width: 190px;
+			height: 100%;
+			float: left;
+			margin-left: -100%;
+			position: relative;
+			left: -190px;
+
+		}
+		.extra{
+			background-color: blue;
+			width: 190px;
+			height: 100%;
+			float: left;
+			margin-left: -190px;
+			position: relative;
+			right: -190px;
+		}
+		#hd{
+			width: 100%;
+			background-color:gray;
+			height: 50px;
+		}
+		#bd{
+			height: 123px;
+			padding: 0px 190px 0px 190px;
+		}
+		#ft{
+			width: 100%;
+			background-color:gray;
+			height: 50px;
+		}
+	</style>
+</head>
+<body>
+<div id="page">
+	<div id="hd">head</div>
+	<div id="bd">
+		<div class="main">main</div>
+		<div class="sub">sub</div>
+		<div class="extra">extra</div>
+	</div>
+	<div id="ft">foot</div>
+</div>
+</body>
+</html>
